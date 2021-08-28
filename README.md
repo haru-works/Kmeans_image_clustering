@@ -50,17 +50,20 @@ https://www.kkaneko.jp/tools/win/keras.html#S1
 <br>
 
 ### プログラム実行
-
-1.imgフォルダに適当な画像を入れます。
+1.コマンドプロンプトを開きます。
 <br>
-2.image-clustering.pyがあるフォルダに移動します。
+2.作ったPython仮想環境をActivateします。
 <br>
-3.下記のコマンドを実行します。
+3.image-clustering.pyがあるフォルダに移動します。
+<br>
+4.imgフォルダに適当な画像を入れます。
+<br>
+5.下記のコマンドを実行します。
 <br>
 ```
 python image-clustering.py
 ```
-4.処理に成功すると、outputフォルダが作られて、img_0～img_xxのクラスタ数分(初期値：n_clusters = 4)のフォルダが作られて、似た画像同士でフォルダ分けされます。
+6.処理が成功するとoutputフォルダが作られて、img_0～img_xxのクラスタ数分(初期値：n_clusters = 4)のフォルダが作られて、似た画像でフォルダ分けされます。
 
 ### デモ
 
