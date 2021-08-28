@@ -80,8 +80,9 @@ print("K-means クラスタリング完了")
 #クラスタリング結果をラベルごとにフォルダ分け
 #---------------------------------------------------------
 #前回フォルダを削除
-shutil.rmtree('./output/')
-print("outputフォルダ削除完了")
+if os.path.exists('./output/'):
+   shutil.rmtree('./output/')
+   print("outputフォルダ削除完了")
 
 # クラスタリング結果をラベルごとにフォルダ分け
 output_path = "./output"
