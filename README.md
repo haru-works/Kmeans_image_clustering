@@ -1,2 +1,2 @@
-# Kmeans_image_clustering
+# Kmeansを使った画像クラスタリング
 Kmeansを使った画像クラスタリング
